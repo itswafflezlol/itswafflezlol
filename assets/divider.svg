@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40"
+     width="1200" height="40">
+<defs>
+  <linearGradient id="dv-line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#A0521A" stop-opacity="0"/>
+    <stop offset="0.12" stop-color="#A0521A"/>
+    <stop offset="0.5" stop-color="#E08A1E"/>
+    <stop offset="0.88" stop-color="#A0521A"/>
+    <stop offset="1" stop-color="#A0521A" stop-opacity="0"/>
+  </linearGradient>
+  
+  <radialGradient id="dv-wbody" cx="0.42" cy="0.38" r="0.75">
+    <stop offset="0" stop-color="#FFC65A"/><stop offset="0.6" stop-color="#F5A623"/>
+    <stop offset="0.85" stop-color="#E08A1E"/><stop offset="1" stop-color="#B8641A"/>
+  </radialGradient>
+  <linearGradient id="dv-wrim" x1="0" y1="0" x2="0.7" y2="1">
+    <stop offset="0" stop-color="#B8641A"/><stop offset="1" stop-color="#7A3B0E"/>
+  </linearGradient>
+  <linearGradient id="dv-wpocket" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8A4512"/><stop offset="0.55" stop-color="#A0521A"/>
+    <stop offset="1" stop-color="#C8741E"/>
+  </linearGradient>
+  <linearGradient id="dv-wbutter" x1="0" y1="0" x2="0.6" y2="1">
+    <stop offset="0" stop-color="#FFF3D6"/><stop offset="0.5" stop-color="#FFE7A3"/>
+    <stop offset="1" stop-color="#FFD166"/>
+  </linearGradient>
+  <radialGradient id="dv-wsyrup" cx="0.4" cy="0.35" r="0.9">
+    <stop offset="0" stop-color="#B8641A"/><stop offset="0.6" stop-color="#A0521A"/>
+    <stop offset="1" stop-color="#7A3B0E"/>
+  </radialGradient>
+  <linearGradient id="dv-wtitle" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFE7A3"/><stop offset="0.5" stop-color="#F5A623"/>
+    <stop offset="1" stop-color="#E08A1E"/>
+  </linearGradient>
+  <filter id="dv-wblur" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+  <filter id="dv-wsoft" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000"
+                  flood-opacity="0.45"/>
+  </filter>
+  <clipPath id="dv-wclip"><circle cx="0" cy="0" r="76"/></clipPath>
+</defs>
+<rect x="40" y="17" width="516" height="7" rx="3.5" fill="url(#dv-line)"/>
+<rect x="644" y="17" width="516" height="7" rx="3.5" fill="url(#dv-line)"/>
+<g transform="translate(600 20) scale(0.17) rotate(-10)">
+<g>
+  <ellipse cx="4" cy="102" rx="86" ry="14" fill="#000" opacity="0.45"
+           filter="url(#dv-wblur)"/>
+  <g transform="scale(1 0.94)" filter="url(#dv-wsoft)">
+    <!-- rim -->
+    <circle cx="0" cy="0" r="92" fill="url(#dv-wrim)"/>
+    <circle cx="0" cy="0" r="84" fill="url(#dv-wbody)"/>
+    <path d="M-62 -56 A84 84 0 0 1 -8 -83" stroke="#FFE7A3"
+          stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"
+          fill="none"/>
+    <!-- pocket field -->
+    <g clip-path="url(#dv-wclip)">
+      <rect x="-76" y="-76" width="152" height="152" fill="url(#dv-wbody)"/>
+      <path d="M-76 -78.5 h152" stroke="#FFE08A" stroke-opacity="0.30" stroke-width="2" fill="none"/><path d="M-76 -46.5 h152" stroke="#FFE08A" stroke-opacity="0.30" stroke-width="2" fill="none"/><path d="M-76 -14.5 h152" stroke="#FFE08A" stroke-opacity="0.30" stroke-width="2" fill="none"/><path d="M-76 17.5 h152" stroke="#FFE08A" stroke-opacity="0.30" stroke-width="2" fill="none"/><path d="M-76 49.5 h152" stroke="#FFE08A" stroke-opacity="0.30" stroke-width="2" fill="none"/><rect x="-77" y="-77" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-72 -52 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-75 -73 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-77" y="-45" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-72 -20 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-75 -41 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-77" y="-13" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-72 12 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-75 -9 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-77" y="19" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-72 44 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-75 23 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-77" y="51" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-72 76 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-75 55 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-45" y="-77" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-40 -52 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-43 -73 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-45" y="-45" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-40 -20 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-43 -41 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-45" y="-13" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-40 12 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-43 -9 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-45" y="19" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-40 44 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-43 23 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-45" y="51" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-40 76 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-43 55 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-13" y="-77" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-8 -52 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-11 -73 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-13" y="-45" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-8 -20 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-11 -41 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-13" y="-13" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-8 12 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-11 -9 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-13" y="19" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-8 44 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-11 23 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="-13" y="51" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M-8 76 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M-11 55 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="19" y="-77" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M24 -52 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M21 -73 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="19" y="-45" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M24 -20 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M21 -41 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="19" y="-13" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M24 12 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M21 -9 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="19" y="19" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M24 44 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M21 23 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="19" y="51" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M24 76 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M21 55 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="51" y="-77" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M56 -52 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M53 -73 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="51" y="-45" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M56 -20 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M53 -41 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="51" y="-13" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M56 12 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M53 -9 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="51" y="19" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M56 44 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M53 23 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/><rect x="51" y="51" width="26" height="26" rx="5" fill="url(#dv-wpocket)"/><path d="M56 76 h16" stroke="#FFE08A" stroke-opacity="0.35" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M53 55 v14" stroke="#5C3310" stroke-opacity="0.5" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+      <!-- syrup pooled in pockets -->
+      <path d="M-30 -18 q16 -10 34 -6 q20 4 30 -8 q10 -8 12 4 q2 14 -14 18
+               q-24 6 -44 2 q-22 -4 -28 6 q-6 8 -10 -2 q-3 -10 20 -14 z"
+            fill="url(#dv-wsyrup)"/>
+      <path d="M-46 22 q14 -8 30 -4 q16 4 26 -4 q10 -6 10 4 q0 12 -14 14
+               q-20 4 -38 0 q-16 -4 -22 2 q-6 6 -8 -2 q-2 -7 16 -10 z"
+            fill="url(#dv-wsyrup)" opacity="0.9"/>
+      <path class="dv-w-sweep" d="M-24 -16 q14 -8 30 -5"
+            stroke="#FFD9A0" stroke-opacity="0.7" stroke-width="4"
+            stroke-linecap="round" fill="none"/>
+      <!-- butter melt puddle -->
+      <path d="M-18 -8 q18 -8 34 -2 q14 6 10 16 q-4 12 -22 12 q-20 0 -26 -10
+               q-5 -10 4 -16 z" fill="#FFE7A3" opacity="0.45"/>
+    </g>
+    <!-- syrup overflowing the rim, one teardrop -->
+    <path d="M44 74 q14 10 20 4 q8 -8 -2 -14 q-14 -6 -22 2 q-4 6 4 8 z"
+          fill="url(#dv-wsyrup)" transform="rotate(10 50 70)"/>
+    <path class="dv-w-drop" d="M58 88 q-5 8 -5 13 a5.5 5.5 0 1 0 11 0
+          q0 -5 -6 -13 z" fill="#A0521A"/>
+    <!-- butter pat -->
+    <g transform="translate(2 -14) rotate(-10)">
+      <rect x="-22" y="-14" width="46" height="28" rx="7"
+            fill="url(#dv-wbutter)"/>
+      <rect x="-22" y="-14" width="46" height="28" rx="7" fill="none"
+            stroke="#B8641A" stroke-opacity="0.35" stroke-width="1.5"/>
+      <ellipse class="dv-w-spec" cx="-9" cy="-7" rx="12" ry="4"
+               fill="#fff" opacity="0.8"/>
+    </g>
+  </g>
+</g></g>
+</svg>
