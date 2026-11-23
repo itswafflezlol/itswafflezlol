@@ -18,7 +18,7 @@
 
 - **Minecraft developer** for 7 years. I write plugins and run public servers.
 - **AI engineer.** I build tools and automations with LLMs.
-- **Founder of KLAYZ.**, where I handle systems and the network.
+- **Systems & network manager at KLAYZ.**
 - **Clipper.** I cut and edit clips, and I build my own tooling for it.
 
 ## Tech I use
